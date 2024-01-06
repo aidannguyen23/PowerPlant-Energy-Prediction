@@ -4,10 +4,13 @@ This repository contains code and analysis for predicting the net hourly electri
 
 ## Overview
 
-The dataset comes from the UCI Machine Learning Repository: https://archive.ics.uci.edu/dataset/294/combined+cycle+power+plant
-Tfekci, Pnar and Kaya,Heysem. (2014). Combined Cycle Power Plant. UCI Machine Learning Repository. https://doi.org/10.24432/C5002N.
+### The Dataset
 
-The dataset comprises 9568 data points collected during the plant's operation, and various regression techniques were employed to forecast the energy output. This project explores the implementation of linear regression and neural network models for prediction and compares their performance.
+The dataset comprises 9568 data points collected during the plant's operation, and various regression techniques were employed to forecast the energy output. 
+This project explores the implementation of linear regression and neural network models for prediction and compares their performance.
+
+The dataset comes from the UCI Machine Learning Repository: https://archive.ics.uci.edu/dataset/294/combined+cycle+power+plant
+Tfekci, Pnar and Kaya, Heysem. (2014). Combined Cycle Power Plant. UCI Machine Learning Repository. https://doi.org/10.24432/C5002N.
 
 ## Code and Analysis
 
@@ -29,13 +32,16 @@ The dataset comprises 9568 data points collected during the plant's operation, a
    - Evaluated performance and correlation coefficients.
 
   ### 1. Standard Linear Regression
-   - Had a correlation coefficient of 0.898:
+  - Explored neural network architecture for energy output prediction.
+  - Used regularization techniques for model performance enhancement.
+  - Had a correlation coefficient of 0.898:
 
 <img src="https://github.com/aidannguyen23/PowerPlant-Energy-Prediction/assets/34725584/78a999de-6c9d-4b5d-924f-71e003020cd5" width="50%">
 
   ![image](https://github.com/aidannguyen23/PowerPlant-Energy-Prediction/assets/34725584/d4d087b5-9048-4236-9336-f01f300cecc3)
 
   ### 2. Multiple Linear Regression
+  - Implemented a neural network model using multiple ambient variables for prediction.
   - Had a better correlation coefficient of 0.926:
     
 <img src="https://github.com/aidannguyen23/PowerPlant-Energy-Prediction/assets/34725584/7d3beee8-7459-4a74-bac7-d7a81fe1be87" width="50%">
